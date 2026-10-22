@@ -1777,8 +1777,12 @@
             <translation>Usar NPU</translation>
         </message>
         <message>
-            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
-            <translation>Ejecutar el OCR en la NPU si existe. Automático mantiene el valor predeterminado de la aplicación. Se aplica al reiniciar</translation>
+            <source>Use the NPU when one is present</source>
+            <translation>Usar la NPU si hay una</translation>
+        </message>
+        <message>
+            <source>Default</source>
+            <translation>Predeterminado</translation>
         </message>
     </context>
     <context>

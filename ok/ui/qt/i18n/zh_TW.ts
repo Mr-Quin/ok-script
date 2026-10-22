@@ -1773,8 +1773,12 @@
             <translation>使用NPU</translation>
         </message>
         <message>
-            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
-            <translation>有 NPU 時用 NPU 執行文字辨識。自動表示沿用應用的預設設定。重新啟動後生效</translation>
+            <source>Use the NPU when one is present</source>
+            <translation>有 NPU 時使用 NPU</translation>
+        </message>
+        <message>
+            <source>Default</source>
+            <translation>預設</translation>
         </message>
     </context>
     <context>

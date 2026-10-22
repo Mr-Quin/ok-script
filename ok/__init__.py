@@ -1219,7 +1219,7 @@ class OkGlobals:
 
     def set_use_npu(self):
         option = self.global_config.get_config('Basic Options').get('Use NPU')
-        # Auto (None) leaves it to the app's ocr params
+        # Default (None) leaves it to the app's ocr params
         self.use_npu = {'Yes': True, 'No': False}.get(option)
         logger.info(f'use_npu option {option}, result {self.use_npu}')
 

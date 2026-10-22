@@ -1779,8 +1779,12 @@
             <translation>Use NPU</translation>
         </message>
         <message>
-            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
-            <translation>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</translation>
+            <source>Use the NPU when one is present</source>
+            <translation>Use the NPU when one is present</translation>
+        </message>
+        <message>
+            <source>Default</source>
+            <translation>Default</translation>
         </message>
     </context>
     <context>
