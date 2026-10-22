@@ -727,6 +727,7 @@ class OK:
         register_notifications(self.global_config)
         og.global_config = self.global_config
         og.set_use_dml()
+        og.set_use_npu()
         try:
             import ctypes
             # Set DPI Awareness (Windows 10 and 8)
@@ -1193,6 +1194,7 @@ class OkGlobals:
         self.task_manager = None
         self.app_path = get_path_relative_to_exe()
         self.use_dml = False
+        self.use_npu = None
         self.global_config = None
         logger.info(f'app path {self.app_path}')
 
@@ -1214,6 +1216,12 @@ class OkGlobals:
             use_dml = window_build_number >= 18362
         logger.info(f'use_dml result is {use_dml}')
         self.use_dml = use_dml
+
+    def set_use_npu(self):
+        option = self.global_config.get_config('Basic Options').get('Use NPU')
+        # Auto (None) leaves it to the app's ocr params
+        self.use_npu = {'Yes': True, 'No': False}.get(option)
+        logger.info(f'use_npu option {option}, result {self.use_npu}')
 
     def get_overlay_view(self):
         if self.app and hasattr(self.app, 'get_overlay_view'):

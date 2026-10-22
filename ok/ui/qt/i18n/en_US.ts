@@ -1774,6 +1774,14 @@
             <source>Try using Alt+F3 to turn it off.</source>
             <translation>Try using Alt+F3 to turn it off.</translation>
         </message>
+        <message>
+            <source>Use NPU</source>
+            <translation>Use NPU</translation>
+        </message>
+        <message>
+            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
+            <translation>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</translation>
+        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

@@ -1770,6 +1770,14 @@
             <source>Try using Alt+F3 to turn it off.</source>
             <translation>可尝试按 Alt+F3 将其关闭。</translation>
         </message>
+        <message>
+            <source>Use NPU</source>
+            <translation>使用NPU</translation>
+        </message>
+        <message>
+            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
+            <translation>有 NPU 时用 NPU 运行文字识别。自动表示沿用应用的默认设置。重启后生效</translation>
+        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

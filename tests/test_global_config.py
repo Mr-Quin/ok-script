@@ -45,6 +45,23 @@ class TestBasicOptions(unittest.TestCase):
         self.assertEqual(['Blur', 'Inpaint'], options.config_type['Blur Algorithm']['options'])
         self.assertEqual(0, options.config_type['Blur Interval']['min'])
 
+    def test_use_npu_defaults_to_auto(self):
+        options = create_basic_options()
+
+        self.assertEqual('Auto', options.default_config['Use NPU'])
+        self.assertEqual(['Auto', 'Yes', 'No'], options.config_type['Use NPU']['options'])
+
+    def test_use_npu_option_overrides_the_app_default_only_when_set(self):
+        original_global_config = og.global_config
+        try:
+            for option, expected in (('Auto', None), ('Yes', True), ('No', False)):
+                og.global_config = SimpleNamespace(get_config=lambda name, option=option: {'Use NPU': option})
+                og.set_use_npu()
+                self.assertIs(expected, og.use_npu, option)
+        finally:
+            og.global_config = original_global_config
+            og.use_npu = None
+
     def test_config_option_show_at_tab_defaults_to_false(self):
         option = ConfigOption('Custom Options')
 

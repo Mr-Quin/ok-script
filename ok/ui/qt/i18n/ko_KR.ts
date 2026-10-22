@@ -1773,6 +1773,14 @@
             <source>Try using Alt+F3 to turn it off.</source>
             <translation>Alt+F3을 눌러 꺼 보세요.</translation>
         </message>
+        <message>
+            <source>Use NPU</source>
+            <translation>NPU 사용</translation>
+        </message>
+        <message>
+            <source>Run OCR on the NPU when one is present. Auto keeps the app default. Restart to apply</source>
+            <translation>NPU가 있으면 문자 인식을 NPU에서 실행합니다. 자동은 앱 기본값을 따릅니다. 재시작 후 적용</translation>
+        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>
