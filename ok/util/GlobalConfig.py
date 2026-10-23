@@ -62,14 +62,14 @@ _basic_options_default = {
     'Auto Resize Game Window': True,
     'Exit App when Game Exits': False,
     'Use DirectML': 'Yes',
-    'Use NPU': 'Default',
+    'Use NPU': 'Auto',
     'Trigger Interval': 1,
     'Start/Stop': 'F9',
     KILL_LAUNCHER_AFTER_START: True,
     'Launch with DX11': False
 }
 _basic_options_type = {'Use DirectML': {'type': "drop_down", 'options': ['Auto', 'Yes', 'No']},
-                       'Use NPU': {'type': "drop_down", 'options': ['Default', 'Yes', 'No']},
+                       'Use NPU': {'type': "drop_down", 'options': ['Auto', 'Yes', 'No']},
                        'Start/Stop': {'type': "drop_down", 'options': ['None', 'F9', 'F10', 'F11', 'F12']}}
 _basic_options_description = {'Use DirectML': 'Use GPU to Improve Performance',
                               'Use NPU': 'Use the NPU when one is present',

@@ -1780,10 +1780,6 @@
             <source>Use the NPU when one is present</source>
             <translation>Usar la NPU si hay una</translation>
         </message>
-        <message>
-            <source>Default</source>
-            <translation>Predeterminado</translation>
-        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

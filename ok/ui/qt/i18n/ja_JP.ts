@@ -1772,10 +1772,6 @@
             <source>Use the NPU when one is present</source>
             <translation>NPUがある場合はNPUを使用</translation>
         </message>
-        <message>
-            <source>Default</source>
-            <translation>既定</translation>
-        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

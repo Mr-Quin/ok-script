@@ -1778,10 +1778,6 @@
             <source>Use the NPU when one is present</source>
             <translation>有 NPU 时使用 NPU</translation>
         </message>
-        <message>
-            <source>Default</source>
-            <translation>默认</translation>
-        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

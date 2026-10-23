@@ -1782,10 +1782,6 @@
             <source>Use the NPU when one is present</source>
             <translation>Use the NPU when one is present</translation>
         </message>
-        <message>
-            <source>Default</source>
-            <translation>Default</translation>
-        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>

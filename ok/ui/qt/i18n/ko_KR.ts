@@ -1781,10 +1781,6 @@
             <source>Use the NPU when one is present</source>
             <translation>NPU가 있으면 NPU 사용</translation>
         </message>
-        <message>
-            <source>Default</source>
-            <translation>기본값</translation>
-        </message>
     </context>
     <context>
         <name>ScheduleTaskTable</name>
